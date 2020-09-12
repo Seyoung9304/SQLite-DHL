@@ -1,0 +1,141 @@
+0 operation
+
+1 insertion / txn
+
+wal_opt
+Txn/sec
+860
+808
+903
+840
+833
+2 insertion / txn
+
+wal_opt
+Txn/sec
+627
+640
+656
+696
+708
+4 insertion / txn
+
+wal_opt
+Txn/sec
+471
+517
+522
+520
+539
+8 insertion / txn
+
+wal_opt
+Txn/sec
+346
+353
+348
+346
+303
+16 insertion / txn
+
+wal_opt
+Txn/sec
+231
+237
+237
+233
+240
+1 operation
+
+1 insertion / txn
+
+wal_opt
+Txn/sec
+804
+907
+923
+915
+839
+2 insertion / txn
+
+wal_opt
+Txn/sec
+745
+692
+729
+742
+741
+4 insertion / txn
+
+wal_opt
+Txn/sec
+556
+565
+568
+551
+554
+8 insertion / txn
+
+wal_opt
+Txn/sec
+399
+396
+390
+384
+406
+16 insertion / txn
+
+wal_opt
+Txn/sec
+278
+278
+270
+277
+273
+2 operation
+
+1 insertion / txn
+
+wal_opt
+Txn/sec
+916
+880
+875
+875
+942
+2 insertion / txn
+
+wal_opt
+Txn/sec
+711
+723
+715
+735
+721
+4 insertion / txn
+
+wal_opt
+Txn/sec
+546
+511
+560
+544
+531
+8 insertion / txn
+
+wal_opt
+Txn/sec
+371
+378
+380
+393
+347
+16 insertion / txn
+
+wal_opt
+Txn/sec
+267
+223
+218
+264
+227

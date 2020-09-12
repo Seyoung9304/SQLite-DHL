@@ -1,0 +1,123 @@
+CROSS=arm-linux-gnueabi-
+#CROSS=
+
+SRCS = sqlite3_original.o \
+	  execute.o
+SRCS1 = sqlite3_lsmvbt.o \
+	  execute.o
+SRCS2  = sqlite3_double_header.o \
+	  execute.o
+SRCS3  = sqlite3_double_header_direct.o \
+	  execute.o
+SRCS4  = sqlite3_double_header_adio.o \
+	  execute.o
+SRCS5 = sqlite3_nvwal.o \
+	  execute.o
+SRCS6 = sqlite3-WALDIO.o \
+	  execute.o
+SRCS7 = sqlite3-WALDIO_nogs.o \
+	  execute.o
+SRCS8 = sqlite3_FASH.o \
+	  execute.o
+
+
+INSTALL = install
+
+prefix = /usr/local
+bindir = $(prefix)/bin
+
+CFLAGS = -lpthread -ldl -lrt
+
+#CFLAGS += -DDEBUG_SCRIPT
+
+#     -DSQLITE_DEFAULT_WAL_AUTOCHECKPOINT=100 \
+     -DSQLITE_DEFAULT_JOURNAL_SIZE_LIMIT=409600 \
+#for sqltie3
+CFLAGS += -DNDEBUG=1 \
+     -DHAVE_USLEEP=1 \
+     -DSQLITE_HAVE_ISNAN \
+     -DSQLITE_THREADSAFE=1 \
+     -DSQLITE_TEMP_STORE=3 \
+     -DSQLITE_POWERSAFE_OVERWRITE=1 \
+     -DSQLITE_DEFAULT_FILE_FORMAT=4 \
+     -DSQLITE_ENABLE_MEMORY_MANAGEMENT=1 \
+     -DSQLITE_ENABLE_FTS3 \
+     -DSQLITE_ENABLE_FTS3_BACKWARDS \
+     -DSQLITE_ENABLE_FTS4 \
+     -DSQLITE_OMIT_BUILTIN_TEST \
+     -DSQLITE_OMIT_COMPILEOPTION_DIAGS \
+     -DSQLITE_OMIT_LOAD_EXTENSION \
+     -DSQLITE_DEFAULT_FILE_PERMISSIONS=0666 \
+     -DSQLITE_MAX_WORKER_THREADS=1 \
+		 -DUSE_PREAD64 \
+     --static
+Normal : original DHL DHL_TC mvbt shadow shadow_x
+#for Nexus5
+execute.o : execute.c
+	$(CROSS)gcc -O2 -c execute.c -g
+sqlite3_original.o : sqlite3_original.c
+	$(CROSS)gcc -O2 -c sqlite3_original.c $(CFLAGS) -D GETTIME 
+original :  execute.o sqlite3_original.o
+	$(CROSS)gcc execute.o sqlite3_original.o -o original $(CFLAGS)
+sqlite3_mvbt.o : sqlite3_mvbt.c
+	$(CROSS)gcc -O2 -c sqlite3_mvbt.c $(CFLAGS) -D GETTIME
+mvbt :  execute.o sqlite3_mvbt.o
+	$(CROSS)gcc execute.o sqlite3_mvbt.o -o mvbt $(CFLAGS)
+sqlite3_DHL.o : sqlite3_DHL.c
+	$(CROSS)gcc -D NEXUS -O2 -c sqlite3_DHL.c $(CFLAGS)  -D GETTIME  
+DHL :  execute.o sqlite3_DHL.o
+	$(CROSS)gcc execute.o sqlite3_DHL.o -o DHL $(CFLAGS) 
+sqlite3_DHL_tc.o : sqlite3_DHL.c
+	$(CROSS)gcc -D NEXUS -O2 -o sqlite3_DHL_tc.o -c sqlite3_DHL.c $(CFLAGS)  -D GETTIME -DTC
+DHL_TC :  execute.o sqlite3_DHL_tc.o
+	$(CROSS)gcc execute.o sqlite3_DHL_tc.o -o DHL_TC $(CFLAGS) 
+sqlite3_shadow.o : sqlite3_shadow.c
+	$(CROSS)gcc -O2 -c sqlite3_shadow.c $(CFLAGS) -D GETTIME -g
+shadow :  execute.o sqlite3_shadow.o
+	$(CROSS)gcc execute.o sqlite3_shadow.o -o shadow $(CFLAGS)
+sqlite3_shadow_x.o : sqlite3_shadow.c
+	$(CROSS)gcc -O2 -c sqlite3_shadow.c -o sqlite3_shadow_x.o $(CFLAGS) -D GETTIME -DSHADOW_X
+shadow_x :  execute.o sqlite3_shadow_x.o
+	$(CROSS)gcc execute.o sqlite3_shadow_x.o -o shadow_x $(CFLAGS) 
+clean :
+	rm -f *.o
+
+#Several
+Sev : Sev_original Sev_DHL Sev_DHL_TC Sev_mvbt Sev_shadow Sev_shadow_x
+several.o : execute.c
+	$(CROSS)gcc -O2 -o several.o -c execute.c -DSEVERAL
+Sev_original :  several.o sqlite3_original.o
+	$(CROSS)gcc several.o sqlite3_original.o -o Sev_original $(CFLAGS)
+Sev_mvbt :  several.o sqlite3_mvbt.o
+	$(CROSS)gcc several.o sqlite3_mvbt.o -o Sev_mvbt $(CFLAGS)
+Sev_DHL :  several.o sqlite3_DHL.o
+	$(CROSS)gcc several.o sqlite3_DHL.o -o Sev_DHL $(CFLAGS)
+Sev_DHL_TC :  several.o sqlite3_DHL_tc.o
+	$(CROSS)gcc several.o sqlite3_DHL_tc.o -o Sev_DHL_TC $(CFLAGS) 
+Sev_shadow :  several.o sqlite3_shadow.o
+	$(CROSS)gcc several.o sqlite3_shadow.o -o Sev_shadow $(CFLAGS)
+Sev_shadow_x :  several.o sqlite3_shadow_x.o
+	$(CROSS)gcc several.o sqlite3_shadow_x.o -o Sev_shadow_x $(CFLAGS)
+
+#recovery
+Recovery: DHL_recovery mvbt_recovery original_recovery shadow_recovery
+recovery.o : recovery.c
+	$(CROSS)gcc -O2 -c recovery.c -g #-D PRINT 
+sqlite3_DHL_r.o: sqlite3_DHL.c
+	$(CROSS)gcc -O2 -c sqlite3_DHL.c -o sqlite3_DHL_r.o $(CFLAGS)  -D RECOVERY_TIME -DNEXUS
+sqlite3_lsmvbt_r.o: sqlite3_lsmvbt.c
+	$(CROSS)gcc -O2 -c sqlite3_lsmvbt.c -o sqlite3_lsmvbt_r.o $(CFLAGS) -D RECOVERY_TIME -g
+sqlite3_original_r.o: sqlite3_original.c
+	$(CROSS)gcc -O2 -c sqlite3_original.c -o sqlite3_original_r.o $(CFLAGS) -D RECOVERY_TIME -g
+sqlite3_shadow_r.o: sqlite3_shadow.c
+	$(CROSS)gcc -O2 -c sqlite3_shadow.c -o sqlite3_shadow_r.o $(CFLAGS)  -D RECOVERY_TIME 
+DHL_recovery: sqlite3_DHL_r.o recovery.o
+	$(CROSS)gcc recovery.o sqlite3_DHL_r.o -o DHL_recovery $(CFLAGS)
+mvbt_recovery: sqlite3_lsmvbt_r.o recovery.o
+	$(CROSS)gcc recovery.o sqlite3_lsmvbt_r.o -o mvbt_recovery $(CFLAGS) -g
+original_recovery: sqlite3_original_r.o recovery.o
+	$(CROSS)gcc recovery.o sqlite3_original_r.o -o original_recovery $(CFLAGS) -g
+shadow_recovery: sqlite3_shadow_r.o recovery.o
+	$(CROSS)gcc recovery.o sqlite3_shadow_r.o -o shadow_recovery $(CFLAGS)
+  
+all: Normal Sev Recovery

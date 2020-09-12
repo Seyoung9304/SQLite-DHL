@@ -1,0 +1,54 @@
+0 operation
+
+1 insertion / txn
+
+wal_opt
+Txn/sec
+462
+465
+461
+465
+459
+2 insertion / txn
+
+wal_opt
+Txn/sec
+418
+411
+406
+403
+397
+4 insertion / txn
+
+wal_opt
+Txn/sec
+347
+348
+347
+344
+353
+8 insertion / txn
+
+wal_opt
+Txn/sec
+310
+294
+292
+300
+294
+16 insertion / txn
+
+wal_opt
+Txn/sec
+227
+226
+231
+222
+227
+1 operation
+
+1 insertion / txn
+
+wal_opt
+Txn/sec
+463

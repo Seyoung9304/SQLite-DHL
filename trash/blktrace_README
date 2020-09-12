@@ -1,0 +1,7 @@
+blktrace -d /dev/block/mmcblk0p27 -a complete -o result -w 3
+blkparse -f "%5T.%9t\t%a\t%d\t%8S\t%4n\t%4p\t%20C\n" -q -i result > result.p
+../../most EXT4 /dev/block/mmcblk0p27 result.p result.po
+
+
+#blktrace execute option
+./DHL_TC -t 4 -o 2 -n 500 -x 1 -b 480

@@ -1,0 +1,71 @@
+1 operation
+
+1 insertion / txn
+
+off_opt
+Txn/sec
+1043
+1027
+1050
+1050
+1086
+2 insertion / txn
+
+off_opt
+Txn/sec
+859
+826
+844
+831
+855
+4 insertion / txn
+
+off_opt
+Txn/sec
+643
+656
+638
+635
+638
+8 insertion / txn
+
+off_opt
+Txn/sec
+439
+477
+470
+492
+475
+16 insertion / txn
+
+off_opt
+Txn/sec
+360
+311
+345
+357
+359
+1 operation
+
+1 insertion / txn
+
+2 insertion / txn
+
+4 insertion / txn
+
+8 insertion / txn
+
+16 insertion / txn
+
+2 operation
+
+1 insertion / txn
+
+2 insertion / txn
+
+4 insertion / txn
+
+8 insertion / txn
+
+16 insertion / txn
+

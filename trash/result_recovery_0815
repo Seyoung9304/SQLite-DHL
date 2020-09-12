@@ -1,0 +1,230 @@
+1 operation/txn
+
+DHL_CC
+Recovery Time(ns):              1789461
+Recovery Time(ns):              1822769
+Recovery Time(ns):              1843654
+Recovery Time(ns):              1849308
+Recovery Time(ns):              1828693
+Recovery Time(ns):              1886000
+Recovery Time(ns):              2039693
+Recovery Time(ns):              1851077
+Recovery Time(ns):              1852616
+Recovery Time(ns):              1824692
+mvbt
+Recovery Time(ns):              2918847
+Recovery Time(ns):              2800384
+Recovery Time(ns):              2786885
+Recovery Time(ns):              2910539
+Recovery Time(ns):              1371039
+Recovery Time(ns):              2776154
+Recovery Time(ns):              2794462
+Recovery Time(ns):              2935461
+Recovery Time(ns):              2766385
+Recovery Time(ns):              2740385
+WAL
+Recovery Time(ns):              5430692
+Recovery Time(ns):              5773039
+Recovery Time(ns):              6485154
+Recovery Time(ns):              5433577
+Recovery Time(ns):              6794231
+Recovery Time(ns):              5731192
+Recovery Time(ns):              5595961
+Recovery Time(ns):              5554615
+Recovery Time(ns):              5563885
+Recovery Time(ns):              5490077
+SHADOW
+Recovery Time(ns):              3883577
+Recovery Time(ns):              3720462
+Recovery Time(ns):              3639731
+Recovery Time(ns):              6233307
+Recovery Time(ns):              4999769
+Recovery Time(ns):              3683193
+Recovery Time(ns):              3888923
+Recovery Time(ns):              3804423
+Recovery Time(ns):              3853577
+Recovery Time(ns):              4110654
+2 operation/txn
+
+DHL_CC
+Recovery Time(ns):              1814423
+Recovery Time(ns):              1825500
+Recovery Time(ns):              1984616
+Recovery Time(ns):              1817385
+Recovery Time(ns):               950192
+Recovery Time(ns):              1845923
+Recovery Time(ns):              1831115
+Recovery Time(ns):              1961423
+Recovery Time(ns):              1871077
+Recovery Time(ns):              1825346
+mvbt
+Recovery Time(ns):              2904885
+Recovery Time(ns):              2803462
+Recovery Time(ns):              2752231
+Recovery Time(ns):              2799038
+Recovery Time(ns):              2928000
+Recovery Time(ns):              2745654
+Recovery Time(ns):              2759346
+Recovery Time(ns):              2772961
+Recovery Time(ns):              2760692
+Recovery Time(ns):              2936846
+WAL
+Recovery Time(ns):              6189962
+Recovery Time(ns):              6706231
+Recovery Time(ns):              5840539
+Recovery Time(ns):              6864692
+Recovery Time(ns):             11448308
+Recovery Time(ns):              6731692
+Recovery Time(ns):              6844576
+Recovery Time(ns):              6877923
+Recovery Time(ns):              5076385
+Recovery Time(ns):              5776269
+SHADOW
+Recovery Time(ns):              4056000
+Recovery Time(ns):              4091346
+Recovery Time(ns):              3664615
+Recovery Time(ns):              5207539
+Recovery Time(ns):              4118807
+Recovery Time(ns):              4868231
+Recovery Time(ns):              3614885
+Recovery Time(ns):              3673154
+Recovery Time(ns):              3995615
+Recovery Time(ns):              3533000
+4 operation/txn
+
+DHL_CC
+Recovery Time(ns):              1844077
+Recovery Time(ns):              1821193
+Recovery Time(ns):              1851462
+Recovery Time(ns):              1812269
+Recovery Time(ns):              1823769
+Recovery Time(ns):              1819307
+Recovery Time(ns):              1868884
+Recovery Time(ns):              1829769
+Recovery Time(ns):              1826154
+Recovery Time(ns):              1842000
+mvbt
+Recovery Time(ns):              2778269
+Recovery Time(ns):              2789154
+Recovery Time(ns):              2841923
+Recovery Time(ns):              2767193
+Recovery Time(ns):              2733500
+Recovery Time(ns):              2749346
+Recovery Time(ns):              2769923
+Recovery Time(ns):              2745884
+Recovery Time(ns):              2783885
+Recovery Time(ns):              2759269
+WAL
+Recovery Time(ns):              6996923
+Recovery Time(ns):              6457539
+Recovery Time(ns):              5792654
+Recovery Time(ns):             10292461
+Recovery Time(ns):              6636730
+Recovery Time(ns):              6814000
+Recovery Time(ns):              6888692
+Recovery Time(ns):              4354384
+Recovery Time(ns):              4859654
+Recovery Time(ns):              5554461
+SHADOW
+Recovery Time(ns):              4671616
+Recovery Time(ns):              5714192
+Recovery Time(ns):              4592115
+Recovery Time(ns):              4535462
+Recovery Time(ns):              7109270
+Recovery Time(ns):              6020616
+Recovery Time(ns):              4832154
+Recovery Time(ns):              6507115
+Recovery Time(ns):              6485615
+Recovery Time(ns):              4862692
+8 operation/txn
+
+DHL_CC
+Recovery Time(ns):              1851577
+Recovery Time(ns):              1852308
+Recovery Time(ns):              1862192
+Recovery Time(ns):              1830115
+Recovery Time(ns):              1795885
+Recovery Time(ns):              1798500
+Recovery Time(ns):              1806000
+Recovery Time(ns):              1846615
+Recovery Time(ns):              1789461
+Recovery Time(ns):              1839731
+mvbt
+Recovery Time(ns):              2748346
+Recovery Time(ns):              2928231
+Recovery Time(ns):              2750077
+Recovery Time(ns):              2787385
+Recovery Time(ns):              2717731
+Recovery Time(ns):              2755077
+Recovery Time(ns):              2727346
+Recovery Time(ns):              2781385
+Recovery Time(ns):              2947230
+Recovery Time(ns):              2734230
+WAL
+Recovery Time(ns):              6894192
+Recovery Time(ns):             10806923
+Recovery Time(ns):              6116500
+Recovery Time(ns):              6498346
+Recovery Time(ns):              7747577
+Recovery Time(ns):              6544308
+Recovery Time(ns):              6669077
+Recovery Time(ns):              6896192
+Recovery Time(ns):              5465616
+Recovery Time(ns):              6561500
+SHADOW
+Recovery Time(ns):              4834500
+Recovery Time(ns):              6611116
+Recovery Time(ns):              5588962
+Recovery Time(ns):              6983847
+Recovery Time(ns):              4966116
+Recovery Time(ns):              4921115
+Recovery Time(ns):              5388923
+Recovery Time(ns):              5687693
+Recovery Time(ns):              6126077
+Recovery Time(ns):              4928770
+16 operation/txn
+
+DHL_CC
+Recovery Time(ns):              1841385
+Recovery Time(ns):              1833115
+Recovery Time(ns):              1817731
+Recovery Time(ns):              1827423
+Recovery Time(ns):              1808039
+Recovery Time(ns):              1878846
+Recovery Time(ns):              1820807
+Recovery Time(ns):              1942693
+Recovery Time(ns):              1834961
+Recovery Time(ns):              1843384
+mvbt
+Recovery Time(ns):              2784577
+Recovery Time(ns):              2941846
+Recovery Time(ns):              2814692
+Recovery Time(ns):              2749461
+Recovery Time(ns):              2741500
+Recovery Time(ns):              2733154
+Recovery Time(ns):              2745308
+Recovery Time(ns):              2882385
+Recovery Time(ns):              2943346
+Recovery Time(ns):              2981808
+WAL
+Recovery Time(ns):              6911462
+Recovery Time(ns):              6127115
+Recovery Time(ns):              5761077
+Recovery Time(ns):              5483461
+Recovery Time(ns):              6649116
+Recovery Time(ns):              6479039
+Recovery Time(ns):              6142538
+Recovery Time(ns):              6933385
+Recovery Time(ns):              7951616
+Recovery Time(ns):              6836500
+SHADOW
+Recovery Time(ns):            241511269
+Recovery Time(ns):              6918923
+Recovery Time(ns):              5463769
+Recovery Time(ns):              6651423
+Recovery Time(ns):              5425807
+Recovery Time(ns):              7933654
+Recovery Time(ns):              8442962
+Recovery Time(ns):              6647346
+Recovery Time(ns):              6368077
+Recovery Time(ns):              4884500

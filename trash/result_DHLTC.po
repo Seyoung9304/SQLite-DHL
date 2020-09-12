@@ -1,0 +1,43 @@
+    0.000000000	C	WS	 9061568	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.000472808	C	WS	 9259608	  64	   0	           swapper/0	J
+    0.000969423	C	WS	       0	   0	1106	              (null)	M
+    0.001138923	C	D	 9260888	   8	   0	           swapper/0
+    0.001289500	C	D	 9261104	  16	   0	           swapper/0
+    0.001732077	C	WS	 9328160	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.002188962	C	WS	       0	   0	1106	              (null)	M
+    0.003048500	C	WS	 9328160	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.003540885	C	WS	 9259672	  24	   0	           swapper/0	J
+    0.004485154	C	WS	       0	   0	1106	              (null)	M
+    0.004917308	C	WS	 9265296	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.005368539	C	WS	       0	   0	1106	              (null)	M
+    0.006197308	C	WS	 9328160	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.006684308	C	WS	       0	   0	1106	              (null)	M
+    0.007056808	C	WS	 9265288	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.007500270	C	WS	       0	   0	1106	              (null)	M
+    0.008190193	C	WS	 9328120	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.008708577	C	WS	       0	   0	1106	              (null)	M
+    0.008979116	C	WS	 9265312	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.009322808	C	WS	       0	   0	1106	              (null)	M
+    0.009995847	C	WS	 9265280	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.010369577	C	WS	       0	   0	1106	              (null)	M
+    0.010541231	C	WS	 9265328	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.010988923	C	WS	       0	   0	1106	              (null)	M
+    0.011579231	C	WS	 9328136	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.012101347	C	WS	       0	   0	1106	              (null)	M
+    0.012531193	C	WS	 9328144	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.012830231	C	WS	 9259696	  24	   0	           swapper/0	J
+    0.013560770	C	WS	       0	   0	1106	              (null)	M
+    0.014454039	C	WS	 9328136	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.014946770	C	WS	       0	   0	1106	              (null)	M
+    0.015219885	C	WS	 9328144	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.015664231	C	WS	       0	   0	1106	              (null)	M
+    0.016361770	C	WS	 9061576	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.016852308	C	WS	       0	   0	1106	              (null)	M
+    0.017126923	C	WS	 9328160	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.017568731	C	WS	       0	   0	1106	              (null)	M
+    0.018273423	C	WS	 9328160	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.018648577	C	WS	       0	   0	1106	              (null)	M
+    0.019180385	C	WS	 9265320	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.019668000	C	WS	       0	   0	1106	              (null)	M
+    0.019864347	C	WS	 9265344	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.020202193	C	WS	       0	   0	1106	              (null)	M

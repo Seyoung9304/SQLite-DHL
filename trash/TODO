@@ -1,0 +1,2 @@
+07/31
+1, Debugging SQL error when deletion (Output is correct, but rc is not SQLITE_OK, but SQLITE_ERROR.)

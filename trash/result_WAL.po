@@ -1,0 +1,46 @@
+    0.000000000	C	WS	 9003312	   8	   0	           swapper/0	M
+    0.000696077	C	WS	 9255480	  64	   0	           swapper/0	J
+    0.001880923	C	WS	       0	   0	   0	           swapper/0	M
+    0.002090231	C	D	 9260360	   8	   0	           swapper/0
+    0.002245423	C	D	 9261808	   8	   0	           swapper/0
+    0.002903077	C	WS	 9003312	   8	   0	           swapper/0	M
+    0.002948885	C	WS	 9367672	  16	   0	           swapper/0	M
+    0.003465693	C	WS	 9255544	  40	   0	           swapper/0	J
+    0.004591385	C	WS	       0	   0	   0	           swapper/0	M
+    0.005554231	C	WS	 9367680	  24	   0	           swapper/0	M
+    0.006162616	C	WS	 9255584	  40	   0	           swapper/0	J
+    0.007268923	C	WS	       0	   0	   0	           swapper/0	M
+    0.008179000	C	WS	 9367696	  24	   0	           swapper/0	M
+    0.008666539	C	WS	 9255624	  40	   0	           swapper/0	J
+    0.009095693	C	WS	       0	   0	   0	           swapper/0	M
+    0.010087039	C	WS	 9367712	  24	   0	           swapper/0	M
+    0.010592077	C	WS	 9255664	  40	   0	           swapper/0	J
+    0.011028731	C	WS	       0	   0	   0	           swapper/0	M
+    0.012019654	C	WS	 9367728	  24	   0	           swapper/0	M
+    0.012643116	C	WS	 9255704	  40	   0	           swapper/0	J
+    0.012962770	C	WS	       0	   0	   0	           swapper/0	M
+    0.013965193	C	WS	 9367744	  24	   0	           swapper/0	M
+    0.014511385	C	WS	 9255744	  40	   0	           swapper/0	J
+    0.014822154	C	WS	       0	   0	   0	           swapper/0	M
+    0.015818693	C	WS	 9367760	  24	   0	           swapper/0	M
+    0.016316193	C	WS	 9255784	  40	   0	           swapper/0	J
+    0.018610077	C	WS	       0	   0	   0	           swapper/0	M
+    0.019619154	C	WS	 9261888	  16	   0	           swapper/0	M
+    0.019654231	C	WS	 9367776	   8	   0	           swapper/0	M
+    0.020175193	C	WS	 9255824	  40	   0	           swapper/0	J
+    0.021272923	C	WS	       0	   0	   0	           swapper/0	M
+    0.022225039	C	WS	 9261896	  16	   0	           swapper/0	M
+    0.022675616	C	WS	 9255864	  40	   0	           swapper/0	J
+    0.023476346	C	WS	       0	   0	   0	           swapper/0	M
+    0.024466423	C	WS	 9261904	  24	   0	           swapper/0	M
+    0.024958693	C	WS	 9255904	  40	   0	           swapper/0	J
+    0.026151539	C	WS	       0	   0	   0	           swapper/0	M
+    0.026617885	C	WS	       0	   0	   0	           swapper/0	M
+    0.027421923	C	WS	 9266320	  32	   0	           swapper/0	D	/test_dir/j.db
+    0.027464539	C	WS	 9266360	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.027489500	C	WS	 9266992	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.027525885	C	WS	 9267008	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.027541539	C	WS	 9267024	  16	   0	           swapper/0	D	/test_dir/j.db
+    0.027555616	C	WS	 9267048	  24	   0	           swapper/0	D	/test_dir/j.db
+    0.027570385	C	WS	 9267080	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.028639077	C	WS	       0	   0	   0	           swapper/0	M

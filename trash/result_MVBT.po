@@ -1,0 +1,51 @@
+    0.000000000	C	WS	 9029416	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.000034116	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.000787654	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.001030270	C	WS	 9029496	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.001508885	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.002077308	C	WS	 9029416	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.002107808	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.002638077	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.002840924	C	WS	 9029440	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.003313424	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.003875770	C	WS	 9029416	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.003908347	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.004632116	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.004852347	C	WS	 9029432	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.005332039	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.005892808	C	WS	 9029456	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.005923270	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.006455577	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.006658462	C	WS	 9029472	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.007159731	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.007721116	C	WS	 9029424	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.007751885	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.008536731	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.008740308	C	WS	 9029488	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.009211077	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.009774270	C	WS	 9029384	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.009804077	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.010335539	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.010544885	C	WS	 9028352	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.011016770	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.011606039	C	WS	 9029384	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.011635347	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.012177616	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.012380154	C	WS	 9028352	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.012855962	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.013736000	C	WS	 9029376	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.013766770	C	WS	 9029400	  16	   0	           swapper/0	D	/test_dir/j.db
+    0.013779616	C	WS	 9344024	  16	   0	           swapper/0	D	/test_dir/j.db
+    0.013874539	C	WS	 9344112	  40	   0	           swapper/0	D	/test_dir/j.db
+    0.014393770	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.014604770	C	WS	 9029416	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.015084347	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.015612270	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.016147154	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.016344000	C	WS	 9029416	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.016713154	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.017237424	C	WS	 9029480	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.017264847	C	WS	 9344024	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.017808654	C	WS	       0	   0	32274	       kworker/u16:1	M
+    0.018008347	C	WS	 9028368	   8	   0	           swapper/0	D	/test_dir/j.db
+    0.018482000	C	WS	       0	   0	32274	       kworker/u16:1	M
