@@ -1,34 +1,48 @@
-SRCS = sqlite3_DHL_sy.c test.c
+CROSS = arm-none-linux-gnueabi-gcc
+
+SRC_DHL = test_dhl.c sqlite3_dhl.c
+SRC_SY = test_sy.c sqlite3_DHL_sy.c
+SRC_ORG = test_org.c sqlite3.c
 
 INSTALL = install
 
 prefix = /usr/local
 bindir = $(prefix)/bin
 
-CFLAGS = -lpthread -ldl -lrt
+CFLAGS = -lpthread -ldl -lrt 
 
 
 
 #for sqlite3_DHL_sy
 CFLAGS += -DNDEBUG=1 \
-	  -DHAVE_USLEEP=1 \
-	  -DSQLITE_HAVE_ISNAN \
-	  -DSQLITE_THREADSAFE=1 \
-	  -DSQLITE_TEMP_STORE=3 \
-	  -DSQLITE_POWERSAFE_OVERWRITE=1 \
-	  -DSQLITE_DEFAULT_FILE_FORMAT=4 \
-	  -DSQLITE_ENABLE_MEMORY_MANAGEMENT=1 \
-	  -DSQLITE_ENABLE_FTS3 \
-	  -DSQLITE_ENABLE_FTS3_BACKWARDS \
-	  -DSQLITE_ENABLE_FTS4 \
-	  -DSQLITE_OMIT_BUILTIN_TEST \
-	  -DSQLITE_OMIT_COMPILEOPTION_DIAGS \
-	  -DSQLITE_OMIT_LOAD_EXTENSION \
-	  -DSQLITE_DEFAULT_FILE_PERMISSIONS=0666 \
-	  		-DUSE_PREAD64 \
-	--static \
+	-DHAVE_USLEEP=1 \
+	-DSQLITE_HAVE_ISNAN \
+        -DSQLITE_THREADSAFE=1 \
+        -DSQLITE_TEMP_STORE=3 \
+        -DSQLITE_POWERSAFE_OVERWRITE=1 \
+        -DSQLITE_DEFAULT_FILE_FORMAT=4 \
+        -DSQLITE_ENABLE_MEMORY_MANAGEMENT=1 \
+        -DSQLITE_ENABLE_FTS3 \
+        -DSQLITE_ENABLE_FTS3_BACKWARDS \
+        -DSQLITE_ENABLE_FTS4 \
+        -DSQLITE_OMIT_BUILTIN_TEST \
+        -DSQLITE_OMIT_COMPILEOPTION_DIAGS \
+        -DSQLITE_OMIT_LOAD_EXTENSION \
+        -DSQLITE_DEFAULT_FILE_PERMISSIONS=0666 \
+        -DSQLITE_MAX_WORKER_THREADS=1 \
+        -DUSE_PREAD64 \
+        --static \
 	-g
 
-all: test.c sqlite3_DHL_sy.c
-	gcc $(SRCS) -o test.exe $(CFLAGS)
+#for Nexus5
+all: test_sy.c sqlite3_DHL_sy.c 
+	$(CROSS)gcc $(SRC_SY) -o sy_test.exe $(CFLAGS)
+
+dhl: test_dhl.c sqlite3_dhl.c 
+	$(CROSS)gcc $(SRC_DHL) -o dhl_test.exe $(CFLAGS)
+
+org: test_org.c sqlite3.c
+	$(CROSS)gcc $(SRC_ORG) -o org_test.exe $(CFLAGS)
+clean: 
+	rm -f *.o
 
